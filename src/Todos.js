@@ -1,11 +1,9 @@
 import React,{ Component} from 'react';
 class Todos extends Component {
     render() {
-       return (
-           <div className="App">
-               <Todos todos={this.state.todos} />
-           </div>
-       )
+       return this.props.todos.map((todo)=>(
+           <h3>{1+1}</h3>
+       ))
     }
 }
 
